@@ -1,0 +1,203 @@
+main{
+    background-color:white;
+}
+body {
+    margin: 0;
+    margin-top: 0px;
+}
+section {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    border: 0.5px solid black;
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.inner{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    height: 60vh;
+    background-color:white;
+}
+.pic{
+    width: 1580px;
+    height: 790px;
+}
+.text{
+position: absolute;
+text-align: center;
+color: indianred;
+margin-top: 265px;
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+h1.text{
+    width: 300px;
+    height: 50px;
+    line-height: 80px;
+    color: brown;
+}
+#about{
+    padding: 10px;
+    border: 10px;
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    display: block;
+}
+.content-about{
+    display:inline-flexbox;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-shadow: 3px 2px grey;
+}
+a.buttonstrokesmoothscroll{
+color: white;
+border: 2px solid;
+border-color: black;
+height: 30px;
+line-height: 30px;
+padding: 10px;
+margin-top: 10px;
+font-size: 20px;
+text-transform: uppercase;
+letter-spacing: 0.5px;
+position: relative;
+text-decoration: brown;
+display: inline-block;
+}
+h2.text{
+    color: brown;
+}
+.content-matter{
+    margin-top: 10px;
+    border: 20px;
+    padding-top: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    display: block;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+#work{
+    background-color: gainsboro;
+}
+#cert{
+    background-color: #990047;
+}
+#contact{
+    background-color:rgba(228, 212, 212, 0.418);
+}
+.work-content{
+    text-align: center;
+    text-decoration: none;
+    font-display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-shadow: 3px 2px whitesmoke;
+}
+.timeline-header{
+    text-align: left;
+    padding-left: 190px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.timeline-content{
+    text-align: right;
+    padding-left: 500px;
+    padding-right: 190px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.timeline-block{
+    position: relative;
+}
+p.timeline-header{
+    font-weight: normal;
+}
+.photo{
+    border-radius: 80px;
+}
+.hello{
+    font-size: 30px;
+    color: azure;;
+}
+.name{
+    font-size: 50px;
+    color: black;
+    position: relative;
+}
+.role{
+    color: white;
+}
+a.buttonstrokesmoothscroll:hover{
+    border-color: white;
+    color: blacks;
+}
+.heading{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-shadow: 2px 1px black;
+}
+.matter{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+.contact-heading{
+    color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.hear{
+    font-family: serif;
+    font-size: 40px;
+    color: black;
+}
+.buttonprimary{
+color: white;
+background: rgba(71, 53, 53, 0.5);
+display: inline-block;
+position: relative;
+font-family: sans-serif;
+font-size: 18px;
+text-transform: uppercase;
+letter-spacing: 1px;
+padding-top: 90px;
+border-radius: 5px;
+cursor: pointer;
+text-decoration: none;
+}
+.linkedIn{
+    text-decoration: none;
+    color: rgba(221, 16, 78, 0.726);
+}
+.emailcaption{
+    color: rgba(221, 16, 78, 0.726);
+}
+.linkedname{
+    color: black;
+}
+.phone{
+    color: rgba(221, 16, 78, 0.726);
+}
+footer{
+    background-color: black;
+    color: white;
+}
+.photo:hover{
+    border-radius: 50px;
+    border: 2px solids;
+    border-color: white;
+}
